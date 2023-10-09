@@ -13,5 +13,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: hollowlatte/JavaGuide
         TARGET_BRANCH: github-pages
-        BUILD_SCRIPT: yarn && yarn build
+        BUILD_SCRIPT: vuepress build docs
         BUILD_DIR: ./dist/
